@@ -1,0 +1,31 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img { 
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+    gap: 10px;
+    display: flex;
+}
+
+ul a { 
+    text-decoration: none;
+    color: #5f6a79;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
